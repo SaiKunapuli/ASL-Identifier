@@ -1,0 +1,11 @@
+npm init -y
+ to install npm
+
+ npm install express
+ to install express
+
+ npm install node-webcam
+ install webcam service
+
+ npm install socket.io
+ install socket
