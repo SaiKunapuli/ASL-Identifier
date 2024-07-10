@@ -1,0 +1,62 @@
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  nav ul li {
+    list-style: none;
+    transition: transform 0.7s ease;
+    font-size: clamp(16px, 4vw, 22px);
+  }
+  
+  nav ul li:hover {
+    transform: skew(-10deg);
+  }
+  
+  nav ul li::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #3EB489;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  
+  nav ul li:hover::after {
+    width: 100%;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    background-color: transparent;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: color 0.7s ease, border-radius 0.7s ease;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  nav ul li a.active {
+    color: #3EB489;
+  }
+  
+  nav ul li a:hover {
+    border-radius: 10px;
+    background-color: #3EB489;
+    color: black;
+  }
+
+  .logo{
+    transform: scale3d(5);
+    text-align: right;
+    margin-left: 35%;
+  }
+
+
+  
