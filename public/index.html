@@ -7,15 +7,6 @@
 </head>
 <body>
   <h1>Webcam App</h1>
-  <button id="openCam">Open Webcam</button>
-  
-  <script src="/socket.io/socket.io.js"></script>
-  <script>
-    const socket = io();
-
-    document.getElementById('openCam').addEventListener('click', () => {
-      window.open('/cam.html', 'blank', 'width=640,height=480');
-    });
-  </script>
+  <a id="openCam" href="/cam.html" target="_blank"><button>Open Webcam</button></a>
 </body>
 </html>
