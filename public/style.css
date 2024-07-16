@@ -18,7 +18,7 @@ nav ul {
     content: "";
     height: 3px;
     width: 0%;
-    background: #3EB489;
+    background: #FF204E;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -43,12 +43,12 @@ nav ul {
   }
   
   nav ul li a.active {
-    color: #3EB489;
+    color: #FF204E;
   }
   
   nav ul li a:hover {
     border-radius: 10px;
-    background-color: #3EB489;
+    background-color: #FF204E;
     color: black;
   }
 
