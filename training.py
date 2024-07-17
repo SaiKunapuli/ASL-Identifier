@@ -1,23 +1,23 @@
 from ultralytics import YOLO
 import pandas as pd
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import os
 
 data_path = "ASL-DB"
 output_path = "model-data"
 
-model = YOLO("yolo8n.pt")
+model = YOLO("yolov8n.pt")
 
-augmentationParams( # type: ignore
-    'fliplr': 0.55
-    'flipud': 0.35
-    'mixup': 0.1
-    'perspective': 0.00025
+augmentationParams = {
+    'fliplr': 0.55,
+    'flipud': 0.35,
+    'mixup': 0.1,
+    'perspective': 0.00025,
     'hsv_h': 0.015
-)
+}
 
 model.train(
-    data = "ASL-DB\data.yaml",
+    data = "ASL-DB\\data.yaml",
     epocs = 40,
     batch = 32,
     imgsz = 416,
