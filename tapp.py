@@ -19,9 +19,6 @@ class WebcamApp:
         _, frame = self.cap.read()
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
-        # Add rounded corners to the frame
-        frame = self.add_rounded_corners(frame)
-
         # Convert the frame to ImageTk format
         img = PIL.ImageTk.PhotoImage(image=PIL.Image.fromarray(frame))
 
