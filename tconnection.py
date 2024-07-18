@@ -1,3 +1,6 @@
 import cv2
-import steamlit as st
-import ultralytics as ut
+import streamlit as st
+from ultralytics import YOLO
+
+def app()
+    model = YOLO(best.pt)
