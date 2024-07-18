@@ -17,17 +17,17 @@ augmentationParams = {
 }
 
 model.train(
-    data = "ASL-DB\\data.yaml",
-    epocs = 40,
-    batch = 32,
+    data = "ASL-DB\data.yaml",
+    epochs = 200,
+    batch = 8,
     imgsz = 416,
     augment = True,
     verbose = True,
-    project = "model-data",
+    project = output_path,
     name = "exp",
     save_period = 20,
-    warmup_epoc = 4,
+    warmup_epochs = 4,
     val = True, 
-    weigth_decay = 0.0005,
+    weight_decay = 0.0005,
     device = "cpu"
 )
