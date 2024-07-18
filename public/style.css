@@ -62,4 +62,21 @@ nav ul {
       font-family: "Roboto-Flex"
     }
 
+    .box{
+      border-style: solid;
+      border-width: 5px;
+      border-color: white;
+    
+      padding: 50px;
+      margin: 25px;
+      width: 800px;
+      height: 30px;
+      border-radius: 25px;
+    }
+    .box container{
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
   
