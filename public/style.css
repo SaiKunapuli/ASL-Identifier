@@ -37,7 +37,7 @@ nav ul {
     padding: 5px 10px;
     border-radius: 3px;
     transition: color 0.7s ease, border-radius 0.7s ease;
-    font-family: "Roboto-Flex", sans-serif;
+    font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -69,7 +69,7 @@ nav ul {
     
       padding: 50px;
       margin: 25px;
-      width: 1200px;
+      width: 1300px;
       height: 300px;
       border-radius: 25px;
       margin: 0 auto;
