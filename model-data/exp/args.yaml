@@ -2,10 +2,17 @@ task: detect
 mode: train
 model: yolov8n.pt
 data: ASL-DB\data.yaml
+<<<<<<< HEAD
+epochs: 40
+time: null
+patience: 100
+batch: 32
+=======
 epochs: 100
 time: null
 patience: 100
 batch: 16
+>>>>>>> c8a8701467cdca686d0c1608b19e1b64238fda15
 imgsz: 416
 save: true
 save_period: 20
