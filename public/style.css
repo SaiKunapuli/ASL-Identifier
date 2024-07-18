@@ -69,8 +69,13 @@ nav ul {
     
       padding: 50px;
       margin: 25px;
+<<<<<<< HEAD
+      width: 1300px;
+      height: 300px;
+=======
       width: 1200px;
       height: 150px;
+>>>>>>> f5d7de8a84968b1f71b3f30a19b206522654199f
       border-radius: 25px;
       margin: 0 auto;
     }
