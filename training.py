@@ -18,13 +18,8 @@ augmentationParams = {
 
 model.train(
     data = "ASL-DB\data.yaml",
-<<<<<<< HEAD
-    epochs = 40,
-    batch = 32,
-=======
     epochs = 200,
     batch = 8,
->>>>>>> c8a8701467cdca686d0c1608b19e1b64238fda15
     imgsz = 416,
     augment = True,
     verbose = True,
