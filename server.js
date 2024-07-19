@@ -1,18 +1,30 @@
+const { spawn } = require('child_process');
 const express = require('express');
-const http = require('http');
-const path = require('path');
-const { Server } = require('socket.io');
-
 const app = express();
-const server = http.createServer(app);
-const io = new Server(server);
+const port = 3000;
+const path = require('path');
+const filePath = path.join(__dirname, 'public', 'index.html');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public/index.html'));
+  res.sendFile(filePath);
+})
+
+app.post('/open-python-window', (req, res) => {
+  const pythonProcess = spawn('python', ['app.py']);
+  
+  pythonProcess.stdout.on('data', (data) => {
+    console.log(`Python stdout: ${data}`);
+  });
+  
+  pythonProcess.stderr.on('data', (data) => {
+    console.error(`Python stderr: ${data}`);
+  });
+  
+  res.send('Python window opened successfully.');
 });
 
-server.listen(3000, () => {
-  console.log('Server is running on http://localhost:3000');
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
 });

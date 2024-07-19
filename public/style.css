@@ -37,7 +37,7 @@ nav ul {
     padding: 5px 10px;
     border-radius: 3px;
     transition: color 0.7s ease, border-radius 0.7s ease;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto-Flex", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -58,5 +58,47 @@ nav ul {
     margin-left: 35%;
   }
 
+    .body{
+      font-family: "Roboto-Flex"
+    }
 
-  
+    .box1{
+      border-style: solid;
+      border-width: 5px;
+      border-color: black;
+    
+      padding: 50px;
+      margin: 25px;
+      width: 1300px;
+      height: 150px;
+      border-radius: 25px;
+      margin: 0 auto;
+    }
+    .box1 container{
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .box2{
+      border-style: solid;
+      border-width: 5px;
+      border-color: black;
+    
+      padding: 50px;
+      margin: 25px;
+      width: 1200px;
+      height: 100px;
+      border-radius: 25px;
+      margin: 0 auto;
+    }
+    .box2 container{
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    h1{
+      Font-family: "Roboto-Flex";
+    }

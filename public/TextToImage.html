@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/style.css">
-        <title>Webcam App</title>
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Webcam App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-    <body>
-        <nav>
-            <ul>
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="/cam.html" target="_blank">Translate</a></li>
-              <li><a href="/about.html" target="_blank">About Us</a></li>
-              <li><a href="/TextToImage.html" target="_blank">Text to Image</a></li>
-            </ul>
-          </nav>
-    </body>
+<body>
+  <nav>
+    <ul>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="/cam.html" target="_blank">Translate</a></li>
+    <li><a href="/about.html" target="_blank">About Us</a></li>
+    <li><a href="/TextToImage.html" target="_blank">Text to Image</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Word to ASL Converter</h1>
+    <label for="wordInput">Enter a word:</label>
+    <input type="text" id="wordInput" placeholder="Type a word...">
+    <button onclick="convertToASL()">Convert to ASL</button>
+    <div id="aslDisplay" class="asl-container">
+        <!-- ASL result will be displayed here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
