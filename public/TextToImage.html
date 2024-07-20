@@ -1,13 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style.css">
-  <title>Webcam App</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASL Image Display</title>
+<style>
+  /* Basic styling for demo purposes */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+  }
+  input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+  }
+  #aslDisplay {
+    margin-top: 20px;
+  }
+</style>
 </head>
 
 <body>
@@ -20,9 +33,9 @@
     </ul>
   </nav>
   <div class="container">
-    <h1>Word to ASL Converter</h1>
-    <label for="wordInput">Enter a word:</label>
-    <input type="text" id="wordInput" placeholder="Type a word...">
+    <h1>Letter to ASL Converter</h1>
+    <label for="wordInput">Enter a letter:</label>
+    <input type="text" id="wordInput" placeholder="Type a letter...">
     <button onclick="convertToASL()">Convert to ASL</button>
     <div id="aslDisplay" class="asl-container">
         <!-- ASL result will be displayed here -->
