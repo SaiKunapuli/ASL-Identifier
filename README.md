@@ -94,10 +94,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## Resources
 <body> 
-  <br>
   https://docs.ultralytics.com/ - Documentation for training custom data on YOLOv8 
   <br>
+  <br>
   https://public.roboflow.com/object-detection/american-sign-language-letters - Dataset used to train model
+  <br>
 <body>
 
 
@@ -139,12 +140,23 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 ## Contact
+<body>
+  <main>
+    <br>
+    Prithvi Thiagarajan(Dictator of CRANE)
+    <br>
+    Sai Kunapuli(CEO of CRANE)
+    <br>
+    Faiz Daroga(Vice President of CRANE)
+    <br>
+    Juan Silvera(Juan of CRANE)
+    <br>
+    Samik Shah( of CRANE)
+    <br>
+  <main>
+<body>
 
-Prithvi Thiagarajan(Dictator of CRANE)
-Sai Kunapuli(CEO of CRANE)
-Faiz Daroga(Vice President of CRANE)
-Juan Silvera(Juan of CRANE)
-Samik Shah( of CRANE)
+
 
 Project Link: [https://github.com/SaiKunapuli/ASL-Identifier](https://github.com/SaiKunapuli/ASL-Identifier)
 
