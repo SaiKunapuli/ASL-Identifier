@@ -3,34 +3,49 @@
 <head>
   <style>
     body {
-        background-image: url('bg.png');
-        background-size: cover;
-        background-repeat: no-repeat;
+      background-image: url('media/background/bg1.png');
+      background-size: cover;
+      background-repeat: no-repeat;
     }
-</style>
+  </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
-  <title>Webcam App</title>
+  <title>ASL Translator</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTLC,YTUC@8..144,87.5,350,4,116,503,101,854,-98,500,725&display=swap" rel="stylesheet">
+  <br>
 </head>
 <body>
   <main>
     <nav>
-      <ul>
-        <div class="box1" id="box-1">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="/cam.html" target="_blank">Translate</a></li>
-          <li><a href="/about.html" target="_blank">About Us</a></li>
-          <li><a href="/TextToImage.html" target="_blank">Text to Image</a></li>
-        <div>
-      </ul>
+      <pre>       </pre>
+      <div class="box1" id="box-1">
+        <ul>
+        <pre>       </pre>
+        <li><a href="index.html" class="active">Home</a></li>
+        <pre>         </pre>
+        <li><a href="/cam.html" target="_self" class="active">Translate</a></li>
+        <pre>         </pre>
+        <li><a href="/index.html" target="_self" class="active"><img src="media\logo.png" width="100" height="100"></a></li>
+        <pre>         </pre>
+        <li><a href="/about.html" target="_self" class="active">About Us</a></li>
+        <pre>         </pre>
+        <li><a href="/TextToImage.html" target="_self" class="active">Text To Image</a></li>
+        </ul>
+      <div>
     </nav>
+    <br>
+    <br>
+    <br>
   </main>
   <div class="box2" id="box-2"> 
-    <h1>Webcam App</h1>
+    <h1>ASL Translator Overview</h1>
   <div>
+    <p> The Asl Translator was trained on the YOLOv8 model. We used a dataset of around 1700 images. The dataset was from
+      Roboflow and was uploaded by David Lee, who took the photos. Approximately 80% of the data was used for training and the
+      rest for testing and validation. 
+    </p>
 </body>
 </html>

@@ -1,30 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    body {
+      background-image: url('media/background/bg1.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+  <title>ASL Translator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTLC,YTUC@8..144,87.5,350,4,116,503,101,854,-98,500,725&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Webcam View</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTLC,YTUC@8..144,87.5,350,4,116,503,101,854,-98,500,725&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="/cam.html" target="_blank">Translate</a></li>
-      <li><a href="/about.html" target="_blank">About Us</a></li>
-      <li><a href="/TextToImage.html" target="_blank">Text to Image</a></li>
-    </ul>
-  </nav>
+  <main>
+    <nav>
+      <br>
+      <pre>       </pre>
+      <div class="box1" id="box-1">
+        <ul>
+        <pre>       </pre>
+        <li><a href="index.html" class="active">Home</a></li>
+        <pre>         </pre>
+        <li><a href="/cam.html" target="_self" class="active">Translate</a></li>
+        <pre>         </pre>
+        <li><a href="/index.html" target="_self" class="active"><img src="media\logo.png" width="100" height="100"></a></li>
+        <pre>         </pre>
+        <li><a href="/about.html" target="_self" class="active">About Us</a></li>
+        <pre>         </pre>
+        <li><a href="/TextToImage.html" target="_self" class="active">Text To Image</a></li>
+        </ul>
+      <div>
+    </nav>
+  </main>
+  <br>
+    <br>
+    <br>
+  </main>
+  <div class="box2" id="box-2"> 
+    <h1>Real Time ASL Translator</h1>
+  <div>
+    <p> Make sure to allow camera permissons and center all hand signs.
+    </p>
+</body>
 
-  <button id = "openButton">Open Window</button>
+  <button id="openButton">Open Window</button>
   <h1>Webcam View</h1>
 
   <script>
       document.getElementById('openButton').addEventListener('click', () => {
-      fetch('/open-python-window', { method: 'POST' })
-        .then(response => response.text())
+      fetch('http://127.0.0.1:5000/open-python-window', { method: 'POST' })
+        .then(response => response.json())
         .then(data => console.log(data))
         .catch(error => console.error('Error:', error));
     });
