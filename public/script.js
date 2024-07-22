@@ -1,8 +1,8 @@
 // Mapping of letters to ASL image URLs
 const aslImages = {
-    "a": "public/ASL_Photos/A.jpg",
-    "b": "public/ASL_Photos/B.jpg",
-    "c": "public/ASL_Photos/C.png",
+    "a": "ASL_Photos/A.jpg",
+    "b": "ASL_Photos/B.jpg",
+    "c": "ASL_Photos/C.png",
     // Add more mappings as needed
 };
 
@@ -13,7 +13,7 @@ function convertToASL() {
 
     if (aslImages.hasOwnProperty(letter)) {
         const imageUrl = aslImages[letter];
-        aslDisplay.innerHTML = `<img src="${imageUrl}" alt="ASL for ${letter}">`;
+        aslDisplay.innerHTML = `<img src="${imageUrl}" width="200" height="200" alt="ASL for ${letter}">`;
     } else {
         aslDisplay.innerHTML = `<p>No ASL representation found for '${letter}'</p>`;
     }
