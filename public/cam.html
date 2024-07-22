@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webcam View</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTLC,YTUC@8..144,87.5,350,4,116,503,101,854,-98,500,725&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTLC,YTUC@8..144,87.5,350,4,116,503,101,854,-98,500,725&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav>
@@ -18,13 +18,13 @@
     </ul>
   </nav>
 
-  <button id = "openButton">Open Window</button>
+  <button id="openButton">Open Window</button>
   <h1>Webcam View</h1>
 
   <script>
       document.getElementById('openButton').addEventListener('click', () => {
-      fetch('/open-python-window', { method: 'POST' })
-        .then(response => response.text())
+      fetch('http://127.0.0.1:5000/open-python-window', { method: 'POST' })
+        .then(response => response.json())
         .then(data => console.log(data))
         .catch(error => console.error('Error:', error));
     });

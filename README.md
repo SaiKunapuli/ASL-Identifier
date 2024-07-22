@@ -33,15 +33,11 @@
     <img src="public\media\logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">ASL Translator</h3>
 
   <p align="center">
-    project_description
+    Real time hand signs to letters translation
     <br />
-    <a href="https://github.com/SaiKunapuli/ASL-Identifier"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/SaiKunapuli/ASL-Identifier">View Demo</a>
     ·
     <a href="https://github.com/SaiKunapuli/ASL-Identifier/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -81,9 +77,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -230,8 +223,8 @@ Project Link: [https://github.com/SaiKunapuli/ASL-Identifier](https://github.com
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
+[Node.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[Node-url]: https://nodejs.org/en
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
