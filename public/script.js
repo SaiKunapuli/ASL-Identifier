@@ -1,8 +1,8 @@
 // Mapping of letters to ASL image URLs
 const aslImages = {
-    "a": "public\\ASL_Photos\\A.jpg",
-    "b": "ASL_Photos\B.jpg",
-    "c": "ASL_Photos\C.png",
+    "a": "public/ASL_Photos/A.jpg",
+    "b": "public/ASL_Photos/B.jpg",
+    "c": "public/ASL_Photos/C.png",
     // Add more mappings as needed
 };
 
