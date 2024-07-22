@@ -67,7 +67,7 @@ nav ul {
       border-width: 5px;
       border-color: black;
       background:black;
-      fill-opacity: 0.50;
+      fill-opacity: 0.1;
       padding: 50px;
       margin: 25px;
       width: 1200px;
@@ -87,7 +87,7 @@ nav ul {
       border-width: 5px;
       border-color: black;
       background:black;
-      fill-opacity: 0.50;
+      fill-opacity: 0.1;
       padding: 50px;
       margin: 25px;
       width: 1200px;
