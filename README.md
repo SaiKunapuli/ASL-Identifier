@@ -88,20 +88,19 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ## Usage
 <body>
   <main> 
-  Users can sign letters, and the application translates them into ASL in real-time. This can be used for learning ASL, communication with deaf individuals, or as an educational tool.ASL learners can use this tool to improve their understanding of ASL grammar, vocabulary, and finger spelling. It provides feedback on correct hand shapes, movements, and facial expressions, helping users to become proficient in ASL communication.
+  Users can sign letters, and the application translates them into ASL in real-time. This can be used for learning ASL, communication with deaf individuals, or as an educational tool. ASL learners can use this tool to improve their understanding of ASL grammar, vocabulary, and finger spelling. It provides feedback on correct hand shapes, movements, and facial expressions, helping users to become proficient in ASL communication.
+  <main>
+<body>
+
+## Resources
+<body> 
   <br>
   https://docs.ultralytics.com/ - Documentation for training custom data on YOLOv8 
   <br>
   https://public.roboflow.com/object-detection/american-sign-language-letters - Dataset used to train model
-  <main>
 <body>
 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 4f7c7c98cdd8a56b4fa7727e9bcea18af500415c
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
