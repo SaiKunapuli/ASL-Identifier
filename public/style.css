@@ -68,6 +68,7 @@ nav ul {
       font-family: "Roboto Flex", sans-serif;
       border-color: black;
       background:black;
+      fill-opacity: 0.75;
       opacity: 0.75;
       padding: 50px;
       margin: 25px;
@@ -88,6 +89,7 @@ nav ul {
       border-width: 5px;
       border-color: black;
       background:black;
+      fill-opacity: 0.75;
       opacity: 0.75;
       padding: 50px;
       font-family: "Roboto Flex", sans-serif;
