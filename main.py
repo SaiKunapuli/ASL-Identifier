@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 app = FastAPI()
 
-@app.get("/")
-async def read_root():
+@app.post("/")
+async def read_frame():
     return {"messege": "Hello, World"}
