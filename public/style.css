@@ -5,7 +5,7 @@ nav ul {
   }
   
   nav ul li {
-    list-style: none;
+    list-style: square;
     transition: transform 0.7s ease;
     font-size: clamp(16px, 4vw, 22px);
   }
@@ -37,7 +37,7 @@ nav ul {
     padding: 5px 10px;
     border-radius: 3px;
     transition: color 0.7s ease, border-radius 0.7s ease;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto-Flex", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -69,8 +69,13 @@ nav ul {
     
       padding: 50px;
       margin: 25px;
+<<<<<<< HEAD
       width: 1200px;
       height: 300px;
+=======
+      width: 1300px;
+      height: 150px;
+>>>>>>> c578e4b5024a6098e166319d0430166466dc98aa
       border-radius: 25px;
       margin: 0 auto;
     }

@@ -1,6 +1,8 @@
 from ultralytics import YOLO
 import pandas as pd
 import matplotlib.pyplot as plt
+import torch_directml as dml
+import torch
 import os
 
 data_path = "ASL-DB"
@@ -18,16 +20,17 @@ augmentationParams = {
 
 model.train(
     data = "ASL-DB\data.yaml",
-    epochs = 200,
-    batch = 8,
+    epochs = 500, # r1 was 100 r2 was 200
+    batch = 16, # r1 was 16 r2 was 8
     imgsz = 416,
     augment = True,
     verbose = True,
     project = output_path,
+    patience= 10,
     name = "exp",
-    save_period = 20,
-    warmup_epochs = 4,
+    save_period = 50,
+    warmup_epochs = 5,
     val = True, 
     weight_decay = 0.0005,
-    device = "cpu"
+    device = 0
 )
