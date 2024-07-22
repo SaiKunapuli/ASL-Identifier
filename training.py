@@ -20,13 +20,13 @@ augmentationParams = {
 
 model.train(
     data = "ASL-DB\data.yaml",
-    epochs = 500, # r1 was 100 r2 was 200
+    epochs = 250, # r1 was 100 r2 was 200
     batch = 16, # r1 was 16 r2 was 8
     imgsz = 416,
     augment = True,
     verbose = True,
     project = output_path,
-    patience= 10,
+    patience= 25,
     name = "exp",
     save_period = 50,
     warmup_epochs = 5,
