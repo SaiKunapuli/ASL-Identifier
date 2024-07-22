@@ -37,7 +37,7 @@ nav ul {
     padding: 5px 10px;
     border-radius: 3px;
     transition: color 0.7s ease, border-radius 0.7s ease;
-    font-family: "Roboto-Flex", sans-serif;
+    font-family: "Roboto Flex", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -59,7 +59,7 @@ nav ul {
   }
 
     .body{
-      font-family: "Roboto-Flex"
+      font-family: "Roboto Flex", sans-serif;
     }
 
     .box1{
@@ -105,5 +105,5 @@ nav ul {
       justify-content: center;
     }
     h1{
-      Font-family: "Roboto-Flex";
+      Font-family: "Roboto Flex", sans-serif;
     }
