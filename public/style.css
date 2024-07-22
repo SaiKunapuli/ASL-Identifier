@@ -5,7 +5,7 @@ nav ul {
   }
   
   nav ul li {
-    list-style: square;
+    list-style: none;
     transition: transform 0.7s ease;
     font-size: clamp(16px, 4vw, 22px);
   }
@@ -69,8 +69,8 @@ nav ul {
     
       padding: 50px;
       margin: 25px;
-      width: 1300px;
-      height: 150px;
+      width: 1200px;
+      height: 300px;
       border-radius: 25px;
       margin: 0 auto;
     }
@@ -100,5 +100,5 @@ nav ul {
       justify-content: center;
     }
     h1{
-      Font-family: "Roboto-Flex";
+      Font-family: "Roboto Flex", sans-serif;;
     }
