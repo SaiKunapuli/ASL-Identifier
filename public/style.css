@@ -67,14 +67,14 @@ nav ul {
       border-width: 5px;
       border-color: black;
       background:black;
-      fill-opacity: 0.50;
+      fill-opacity: 0.1;
       padding: 50px;
       margin: 25px;
       width: 1200px;
       height: 70px;
       border-radius: 25px;
       margin: 0 auto;
-      color: antiquewhite;
+      color: white;
     }
     .box1 container{
       display: flex;
@@ -87,14 +87,14 @@ nav ul {
       border-width: 5px;
       border-color: black;
       background:black;
-      fill-opacity: 0.50;
+      fill-opacity: 0.1;
       padding: 50px;
       margin: 25px;
       width: 1200px;
       height: 500px;
       border-radius: 25px;
       margin: 0 auto;
-      color: antiquewhite;
+      color: white;
     }
     .box2 container{
       background-color:black;
