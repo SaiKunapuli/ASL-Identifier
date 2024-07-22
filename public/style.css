@@ -74,7 +74,7 @@ nav ul {
       height: 70px;
       border-radius: 25px;
       margin: 0 auto;
-      text-decoration-color: antiquewhite;
+      color: antiquewhite;
     }
     .box1 container{
       display: flex;
@@ -94,7 +94,7 @@ nav ul {
       height: 500px;
       border-radius: 25px;
       margin: 0 auto;
-      text-decoration-color:%20antiquewhite;
+      color: antiquewhite;
     }
     .box2 container{
       background-color:black;
