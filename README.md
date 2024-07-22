@@ -83,59 +83,13 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/SaiKunapuli/ASL-Identifier.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+Users can sign letters, and the application translates them into ASL in real-time. This can be used for learning ASL, communication with deaf individuals, or as an educational tool.ASL learners can use this tool to improve their understanding of ASL grammar, vocabulary, and finger spelling. It provides feedback on correct hand shapes, movements, and facial expressions, helping users to become proficient in ASL communication.
+https://docs.ultralytics.com/ Used this for custom model training.
+https://public.roboflow.com/object-detection/american-sign-language-letters AI model we used.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -145,11 +99,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] ASL translator
+    - [ ] Text to Image Translator
 
 See the [open issues](https://github.com/SaiKunapuli/ASL-Identifier/issues) for a full list of proposed features (and known issues).
 
@@ -176,18 +127,16 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Prithvi Thiagarajan(Dictator of CRANE)
+Sai Kunapuli(President of CRANE)
+Faiz Daroga(Vice President of CRANE)
+Juan Silvera(Juan of CRANE)
+Samik Shah(Owner of CRANE)
 
 Project Link: [https://github.com/SaiKunapuli/ASL-Identifier](https://github.com/SaiKunapuli/ASL-Identifier)
 
@@ -198,9 +147,7 @@ Project Link: [https://github.com/SaiKunapuli/ASL-Identifier](https://github.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Shoutout to David Lee great guy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
