@@ -1,7 +1,7 @@
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 25px;
   }
   
   nav ul li {
@@ -11,7 +11,7 @@ nav ul {
   }
   
   nav ul li:hover {
-    transform: skew(-10deg);
+    transform: skew(0deg);
   }
   
   nav ul li::after {
@@ -43,7 +43,7 @@ nav ul {
   }
   
   nav ul li a.active {
-    color: #FF204E;
+    color: #000000;
   }
   
   nav ul li a:hover {

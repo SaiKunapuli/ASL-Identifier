@@ -123,7 +123,7 @@ See the [open issues](https://github.com/SaiKunapuli/ASL-Identifier/issues) for 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Don't forget to give the project a star!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -143,15 +143,15 @@ Don't forget to give the project a star! Thanks again!
 <body>
   <main>
     <br>
-    Prithvi Thiagarajan(Dictator of CRANE)
+    Prithvi Thiagarajan (Dictator of CRANE)
     <br>
-    Sai Kunapuli(CEO of CRANE)
+    Sai Kunapuli (CEO of CRANE)
     <br>
-    Faiz Daroga(Vice President of CRANE)
+    Faiz Daroga (Vice President of CRANE)
     <br>
-    Juan Silvera(Juan of CRANE)
+    Juan Silvera (Juan of CRANE)
     <br>
-    Samik Shah( of CRANE)
+    Samik Shah (Samik of CRANE)
     <br>
   <main>
 <body>
