@@ -43,12 +43,12 @@ nav ul {
   }
   
   nav ul li a.active {
-    color: #000000;
+    color: #ffffff;
   }
   
   nav ul li a:hover {
     border-radius: 10px;
-    background-color: #FF204E;
+    background-color: #ffffff;
     color: black;
   }
 
