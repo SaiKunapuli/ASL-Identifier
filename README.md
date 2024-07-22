@@ -91,7 +91,7 @@ https://docs.ultralytics.com/ Used this for custom model training.
 https://public.roboflow.com/object-detection/american-sign-language-letters AI model we used.
 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
