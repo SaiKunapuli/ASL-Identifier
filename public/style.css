@@ -48,6 +48,8 @@ nav ul {
   
   nav ul li a:hover {
     border-radius: 10px;
+    background-color: #ffffff;
+    color: black;
   }
 
   .logo{
