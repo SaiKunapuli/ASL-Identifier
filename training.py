@@ -8,7 +8,7 @@ import os
 data_path = "ASL-DB"
 output_path = "model-data"
 
-model = YOLO("yolov8n.pt")
+model = YOLO("model-data\exp2\weights\last.pt")
 
 augmentationParams = {
     'fliplr': 0.55,
@@ -32,5 +32,5 @@ model.train(
     warmup_epochs = 5,
     val = True, 
     weight_decay = 0.0005,
-    device = 0
+    device = "cpu"
 )
