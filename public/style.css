@@ -6,7 +6,7 @@ nav ul {
   
   nav ul li {
     list-style: none;
-    /* transition: transform 0.7s ease; */
+    transition: transform 0.7s ease;
     font-size: clamp(16px, 4vw, 22px);
   }
   
@@ -47,7 +47,7 @@ nav ul {
   }
   
   nav ul li a:hover {
-    border-radius: 1px;
+    border-radius: 10px;
     background-color: #ffffff;
     color: black;
   }
