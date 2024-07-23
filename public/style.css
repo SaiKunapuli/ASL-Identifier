@@ -25,9 +25,6 @@ nav ul {
     transition: 0.5s;
   }
   
-  nav ul li:hover::after {
-    width: 100%;
-  }
   
   nav ul li a {
     text-decoration: none;
