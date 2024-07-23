@@ -18,7 +18,7 @@ class ASLApp:
         self.switch_camera_button = tk.Button(root, text="Switch Camera", command=self.switch_camera)
         self.switch_camera_button.pack()
 
-        self.model = YOLO("ASL-Identifier/model-data/exp2/weights/best.pt")
+        self.model = YOLO("model-data/exp2/weights/best.pt")
         self.class_names = [
             'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 
             'W', 'X', 'Y', 'Z'
