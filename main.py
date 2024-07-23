@@ -8,7 +8,7 @@ cap.set(3, 416)
 cap.set(4, 416)
 
 # Load the YOLO model
-model = YOLO("model-data\\ex3\\weights\\best.pt")
+model = YOLO("model-data\exp2\weights\last.pt")
 
 # Define class names
 classNames = [
