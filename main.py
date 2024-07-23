@@ -7,10 +7,8 @@ cap = cv2.VideoCapture(0)
 cap.set(3, 416) 
 cap.set(4, 416)
 
-# Load the YOLO model
-model = YOLO("model-data\exp2\weights\last.pt")
+model = YOLO("model-data/exp2/weights/best.pt")
 
-# Define class names
 classNames = [
     'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 
     'W', 'X', 'Y', 'Z'

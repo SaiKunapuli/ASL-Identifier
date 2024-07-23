@@ -30,7 +30,7 @@
         <pre>         </pre>
         <li><a href="/cam.html" target="_self" class="active">Translate</a></li>
         <pre>         </pre>
-        <li><a href="/index.html" target="_self" class="active"><img src="media\logo.png" width="100" height="100"></a></li>
+        <li><a href="/index.html" target="sel_f" class="active"><img src="media\logo.png" width="100" height="100"></a></li>
         <pre>         </pre>
         <li><a href="/about.html" target="_self" class="active">About Us</a></li>
         <pre>         </pre>
@@ -49,10 +49,7 @@
     <p> Make sure to allow camera permissons and center all hand signs.
     </p>
 </body>
-
   <button id="openButton">Open Window</button>
-  <h1>Webcam View</h1>
-
   <script>
       document.getElementById('openButton').addEventListener('click', () => {
       fetch('http://127.0.0.1:5000/open-python-window', { method: 'POST' })
