@@ -48,8 +48,6 @@ nav ul {
   
   nav ul li a:hover {
     border-radius: 10px;
-    background-color: #ffffff;
-    color: black;
   }
 
   .logo{
@@ -108,6 +106,11 @@ nav ul {
     }
     h1{
       Font-family: "Roboto Flex", sans-serif;;
+    }
+
+    .box3 a:hover{
+      background-color: black;
+      color: #ffffff;
     }
   
   
