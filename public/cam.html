@@ -52,7 +52,7 @@
   <button id="openButton">Open Window</button>
   <script>
       document.getElementById('openButton').addEventListener('click', () => {
-      fetch('http://127.0.0.1:5000/open-python-window', { method: 'POST' })
+      fetch('/open-python-window', { method: 'POST' })
         .then(response => response.json())
         .then(data => console.log(data))
         .catch(error => console.error('Error:', error));

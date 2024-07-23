@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/open-python-window', (req, res) => {
-  const pythonProcess = spawn('python', ['app.py']);
+  const pythonProcess = spawn('python', ['main.py']);
   
   pythonProcess.stdout.on('data', (data) => {
     console.log(`Python stdout: ${data}`);
