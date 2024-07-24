@@ -2,19 +2,22 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-  }
-  
-  nav ul li {
+    justify-content: center; 
+    align-items: center; 
+}
+
+nav ul li {
     list-style: none;
     transition: transform 0.7s ease;
     font-size: clamp(16px, 4vw, 22px);
-  }
-  
-  nav ul li:hover {
+    position: relative; 
+}
+
+nav ul li:hover {
     transform: skew(0deg);
-  }
-  
-  nav ul li::after {
+}
+
+nav ul li::after {
     content: "";
     height: 3px;
     width: 0%;
@@ -23,10 +26,9 @@ nav ul {
     left: 0;
     bottom: -10px;
     transition: 0.5s;
-  }
-  
-  
-  nav ul li a {
+}
+
+nav ul li a {
     text-decoration: none;
     font-size: 1.5vw;
     background-color: transparent;
@@ -37,74 +39,77 @@ nav ul {
     font-family: "Roboto Flex", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-  }
-  
-  nav ul li a.active {
+}
+
+nav ul li a.active {
     color: #ffffff;
-  }
-  
-  nav ul li a:hover {
+}
+
+nav ul li a:hover {
     border-radius: 10px;
     background-color: #ffffff;
     color: black;
-  }
+}
 
-  .logo{
-    transform: scale3d(5);
-    text-align: right;
-    margin-left: 35%;
-  }
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
 
-    .body{
-      font-family: "Roboto Flex", sans-serif;
-    }
+body {
+    font-family: "Roboto Flex", sans-serif;
+}
 
-    .box1{
-      border-style: solid;
-      border-width: 5px;
-      font-family: "Roboto Flex", sans-serif;
-      border-color: black;
-      background:black;
-      fill-opacity: 0.75;
-      opacity: 0.75;
-      padding: 50px;
-      margin: 25px;
-      width: 1200px;
-      height: 50px;
-      border-radius: 25px;
-      margin: 0 auto;
-      color: white;
-    }
-    .box1 container{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
+.box1 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background: black;
+    opacity: 0.75;
+    padding: 50px;
+    margin: 25px;
+    width: 1200px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .box2{
-      border-style: solid;
-      border-width: 5px;
-      border-color: black;
-      background:black;
-      fill-opacity: 0.75;
-      opacity: 0.75;
-      padding: 50px;
-      font-family: "Roboto Flex", sans-serif;
-      margin: 25px;
-      width: 1200px;
-      height: 450px;
-      border-radius: 25px;
-      margin: 0 auto;
-      color: white;
-    }
-    .box2 container{
-      background-color:black;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-    h1{
-      Font-family: "Roboto Flex", sans-serif;
-    }
-  
-  
+.box2 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background: black;
+    opacity: 0.75;
+    padding: 50px;
+    margin: 25px;
+    width: 1200px;
+    height: 450px;
+    border-radius: 25px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Roboto Flex", sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    background-image: url('media/background/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
