@@ -4,6 +4,7 @@ nav ul {
     gap: 10px;
     justify-content: center; 
     align-items: center; 
+    padding-bottom: 100px;
 }
 
 nav ul li {
@@ -68,7 +69,7 @@ body {
     border-color: black;
     background: black;
     opacity: 0.75;
-    padding: 50px;
+    padding-bottom: 120px;
     margin: 25px;
     width: 1200px;
     height: 50px;
@@ -93,7 +94,8 @@ body {
     margin: 0 auto;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
