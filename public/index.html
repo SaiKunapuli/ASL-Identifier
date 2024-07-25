@@ -41,22 +41,60 @@
     <br>
     <br>
   </main>
+  
   <div class="box2" id="box-2">
-    <br>
-    <h1>ASL Translator Overview</h1>
-  <div>
-    <p> The Asl Translator was trained on the YOLOv8 model. We used a dataset of around 1700 images. The dataset was from
-      Roboflow and was uploaded by David Lee, who took the photos. Approximately 80% of the data was used for training and the
-      rest for testing and validation. We created this website, trained the model, and hosted the model during the Drexel CCI Data
-      Science camp.
-    </p>
-  <div>
-    <h1>Mission Statement</h1>
-    <p> During our research of potential ideas, we came across some striking statistics regarding the population of deal people
+    <div class="openable">
+      <button class="header" id="btn1" onclick="openOpenable(this)">
+        Who are we? ▼
+      </button>
+      <div class="content">
+        <p>
+          The ASL Translator was trained on the YOLOv8 model. We used a dataset of around 1700 images. The dataset was from
+        Roboflow and was uploaded by David Lee, who took the photos. Approximately 80% of the data was used for training and the
+        rest for testing and validation. We created this website, trained the model, and hosted the model during the Drexel CCI Data
+        Science camp.
+        </p>
+      </div>
+    </div>
+
+    <div class="openable">
+      <button class="header" id="btn1" onclick="openOpenable(this)">
+        Mission Statement ▼
+      </button>
+      <div class="content">
+        <p>
+          We aim to make learning sign language more accessible to people. For free. Anytime. Anywhere. 
+        </p>
+      </div>
+    </div>
+
+    <div class="openable">
+      <button class="header" id="btn1" onclick="openOpenable(this)">
+        Context ▼
+      </button>
+      <div class="content">
+        <p>
+          During our research of potential ideas, we came across some striking statistics regarding the population of deal people
        and people who know ASL. According to the 2021 American Community Survey (ACS), about 11 million individuals in the 
        United States are deaf or hard of hearing, however only around half a million Americans use ASL as their native language.
        This sparked the creation of ASL Translator.
-      </p>
+        </p>
+      </div>
+    </div>
+    <br>
+ 
   </div>
+
+  <script>
+    function openOpenable(e) {
+        e.parentElement.classList.toggle("open");
+        if (e.parentElement.classList.contains("open")) {
+          e.parentElement.children[1].scrollIntoView({ behavior: "smooth" });
+          e.innerHTML = e.innerHTML.replace("▼", "▲");
+        } else {
+          e.innerHTML = e.innerHTML.replace("▲", "▼");
+        }
+      }
+  </script>
 </body>
 </html>
