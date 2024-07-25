@@ -41,7 +41,7 @@ nav ul li a.active {
 nav ul li a:hover:not(.logo) {
   border-radius: 10px;
   background-color: #160a0a;
-  color: cyan;
+  color:#0096FF;
   font-size: 2vw;
 }
 .logo {
@@ -96,7 +96,7 @@ p {
   text-align: center;
 }
 body {
-  background-image: url('media/background/bg1.png');
+  background-color:	#FFFFF0;
   background-size: cover;
   background-repeat: no-repeat;
 }
