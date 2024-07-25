@@ -41,6 +41,7 @@
     <br>
     <br>
   </main>
+  
   <div class="box2" id="box-2">
   <div>    
     <h1>ASL Translator Overview</h1>
@@ -60,5 +61,17 @@
        power of AI in fostering inclusivity and understanding across diverse communities.
       </p>
   </div>
+
+  <script>
+    function openOpenable(e) {
+        e.parentElement.classList.toggle("open");
+        if (e.parentElement.classList.contains("open")) {
+          e.parentElement.children[1].scrollIntoView({ behavior: "smooth" });
+          e.innerHTML = e.innerHTML.replace("▼", "▲");
+        } else {
+          e.innerHTML = e.innerHTML.replace("▲", "▼");
+        }
+      }
+  </script>
 </body>
 </html>

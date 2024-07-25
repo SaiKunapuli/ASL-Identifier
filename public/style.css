@@ -14,7 +14,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    transform: skew(0deg);
+    transform: skew(-2deg);
 }
 
 nav ul li::after {
@@ -77,7 +77,6 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .box2 {
@@ -111,4 +110,105 @@ body {
     background-image: url('media/background/bg1.png');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#openButton {
+  color: white;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 0 solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  position: relative;
+  width: 90%;
+  height: 100px;
+  font-size: 1rem;
+  transition: 0.8s;
+}
+
+#openButton:hover {
+  background-color: black;
+  border: 4px solid white;
+  color: white;
+}
+
+.openable .content {
+  height: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 20, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  border-radius: 20px;
+  border: 0 solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease-out;
+}
+
+.openable .content * {
+  overflow: hidden;
+  padding-inline: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.openable.open .content {
+  height: auto;
+  grid-template-rows: 1fr;
+}
+
+.content h2 {
+  font-size: 1.5vw;
+  backdrop-filter: blur(20px);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border-right: 5px solid white;
+  width: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: textTyping 5s steps(84),
+    textCursor 0.5s step-end infinite alternate;
+}
+
+.header {
+  color: white;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 0 solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  position: relative;
+  width: 50%;
+  height: 100px;
+  font-size: 1rem;
+  transition: 0.8s;
+}
+
+.header:hover {
+  background-color: black;
+  border: 4px solid white;
+  color: white;
+}
+
+.openable{
+  padding: 1%;
 }
