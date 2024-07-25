@@ -33,7 +33,7 @@ nav ul li a {
   transition: color 0.7s ease-in-out, border-radius 0.7s ease-in-out, font-size 0.7s ease-in-out;
   font-family: "Roboto Flex", sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bolder;
 }
 nav ul li a.active {
   color: #ffffff;
@@ -41,7 +41,7 @@ nav ul li a.active {
 nav ul li a:hover:not(.logo) {
   border-radius: 10px;
   background-color: #160a0a;
-  color: rgb(255, 255, 255);
+  color: cyan;
   font-size: 2vw;
 }
 .logo {
