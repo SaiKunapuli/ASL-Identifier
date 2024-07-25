@@ -58,7 +58,7 @@ body {
   border-width: 5px;
   border-color: black;
   background: black;
-  opacity: 0.75;
+  opacity: 0.5;
   padding: 50px;
   margin: 25px;
   width: 1200px;
@@ -75,7 +75,7 @@ body {
   border-width: 5px;
   border-color: black;
   background: black;
-  opacity: 0.75;
+  opacity: 0.5;
   padding: 50px;
   margin: 25px;
   width: 1200px;
@@ -180,8 +180,8 @@ animation: textTyping 5s steps(84),
 color: white;
 background: linear-gradient(
   135deg,
-  rgba(255, 255, 255, 0.1),
-  rgba(255, 255, 255, 0)
+  rgba(255, 255, 255, 0.3),
+  rgba(255, 255, 255, 0.1)
 );
 backdrop-filter: blur(10px);
 -webkit-backdrop-filter: blur(10px);
